@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "chunk.h": "c",
+        "cmath": "c"
+    }
+}

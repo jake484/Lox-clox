@@ -1,0 +1,471 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Mar 15 11:54:26 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 21)
+SRC := src
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'Makefile', line 48)
+INCLUDES := -Iinclude
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = 
+ C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := e:/postgraduate/project/learn/c-lox
+# default
+SHELL := sh.exe
+# makefile (from 'Makefile', line 35)
+RM := del /q /f
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"5bbccb7f472a6daff9a80a1ebebb1809.zh-cn","_translationsConfigFile":"C:\\Users\\DELL\\AppData\\Roaming\\Code\\clp\\5bbccb7f472a6daff9a80a1ebebb1809.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\DELL\\AppData\\Roaming\\Code\\clp\\5bbccb7f472a6daff9a80a1ebebb1809.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\DELL\\AppData\\Roaming\\Code\\clp\\5bbccb7f472a6daff9a80a1ebebb1809.zh-cn\\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1","_corruptedFile":"C:\\Users\\DELL\\AppData\\Roaming\\Code\\clp\\5bbccb7f472a6daff9a80a1ebebb1809.zh-cn\\corrupted.info","_languagePackSupport":true}
+# makefile (from 'Makefile', line 10)
+CFLAGS := -Wall -Wextra -g
+# environment
+ONEDRIVE = C:\Users\DELL\OneDrive
+# environment
+MAVEN_HOME = D:\software_install\apache-maven-3.8.4
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\DELL\AppData\Local\Temp
+# makefile (from 'Makefile', line 54)
+SOURCES := src/scanner.c src/vm.c src/debug.c src/main.c src/memory.c src/chunk.c src/compiler.c src/value.c
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+GPROMSHOME = E:\PSE\gPROMS-core_7.0.7.55178
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a5dae314-11c3-4dcf-a76c-4da4789d021c-sock
+# environment
+VSCODE_CWD = E:\postgraduate\project\learn\Git test\githup test
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\DELL\AppData\Local\julias\julia-1.6\bin;D:\software_install\bin;E:\PSE\gPROMS-core_7.0.7.55178\bin;D:\software\Git\cmd;D:\software_install\node\;D:\software_install\apache-maven-3.8.4\bin;c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\pywin32_system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\DELL\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\DELL\AppData\Local\Programs\Python\Python37\;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;"D:\nodejs\;D:\nodejs\node_global_modules";D:\nodejs\node_global_modules;D:\julia\Julia-1.6.3\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# makefile (from 'Makefile', line 36)
+MD := mkdir
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\DELL
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 33)
+LIBDIRS := lib
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 27)
+LIB := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# environment
+OPENMODELICAHOME = D:\software\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11564_SCWFYEAEDDUCHEZB
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-G35MT3G
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# makefile (from 'Makefile', line 65)
+OUTPUTMAIN := output\main.exe
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = DELL
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/wo 
+rkbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\DELL\AppData\Roaming\Code\CachedData\c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-G35MT3G
+# makefile (from 'Makefile', line 32)
+INCLUDEDIRS := include
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-G35MT3G
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 34)
+FIXPATH = $(subst /,\,$1)
+# environment
+NODE_HOME = D:\nodejs
+# makefile (from 'Makefile', line 7)
+CC = gcc
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 24)
+INCLUDE := include
+# makefile (from 'Makefile', line 31)
+SOURCEDIRS := src
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# makefile (from 'Makefile', line 15)
+LFLAGS = 
+# environment
+LOCALAPPDATA = C:\Users\DELL\AppData\Local
+# environment
+define PSELMD_LICENSE_FILE
+@192.168.9.2
+
+endef
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\94d617bfb1ac0c411605adcb3cbd2f14-1.65.2-ma 
+in-sock
+# environment
+HOMEPATH = \Users\DELL
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# makefile (from 'Makefile', line 30)
+MAIN := main.exe
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\DELL\AppData\Roaming
+# environment
+TEMP = C:\Users\DELL\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# makefile (from 'Makefile', line 18)
+OUTPUT := output
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 51)
+LIBS := -Llib
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = a505
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 57)
+OBJECTS := src/scanner.o src/ 
+vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/value.o
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 11564
+# environment
+JULIA_NUM_THREADS = 16
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-G35MT3G
+# variable set hash-table stats:
+# Load=116/1024=11%, Rehash=0, Collisions=14/161=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# D:\software_install\node\ (key D:/software_install/node/, mtime 1635405552): 13 files, no impossibilities.
+# C:\Users\DELL\AppData\Local\Programs\Python\Python37\ (key C:/Users/DELL/AppData/Local/Programs/Python/Python37/, mtime 1628218753): 20 files, no impossibilities.
+# D:\software_install\bin (key D:/software_install/bin, mtime 1628739931): 57 files, no impossibilities.
+# C:\Users\DELL 
+\AppData\Local\Microsoft\WindowsApps (key C:/Users/DELL/AppData/Local/Microsoft/WindowsApps, mtime 1646706587): 13 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1618634246): 31 files, no impossibilities.
+# . (key e:/postgraduate/project/learn/c-lox, mtime 1647310232): 13 files, no impossibilities.
+# D:\nodejs\node_global_modules" (key D:/nodejs/node_global_modules", mtime 1635487260): could not be opened.
+# D:\software_install\apache-maven-3.8.4\bin (key D:/software_install/apache-maven-3.8.4/bin, mtime 1636852368): 8 files, no impossibilities.
+# "D:\nodejs\: could not be stat'd.
+# C:\Users\DELL\AppData\Local\Programs\Python\Python37\Scripts\ (key C:/Users/DELL/AppData/Local/Programs/Python/Python37/Scripts/, mtime 1647220210): 55 files, no impossibilities.
+# D:\julia\Julia-1.6.3\bin (key D:/julia/Julia-1.6.3/bin, mtime 1636363137): 55 files, no impossibilities.
+# D:\software\Git\cmd (key D:/software/Git/cmd, mtime 1630910587): 8 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# E:\PSE\gPROMS-core_7.0.7.55178\bin (key E:/PSE/gPROMS-core_7.0.7.55178/bin, mtime 1630567450): 240 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1646899118): 115 files, no impossibilities.
+# C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1647050326): 4 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/Syst 
+em32/Wbem, mtime 1646899119): 155 files, no impossibilities.
+# c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\pywin32_system32 (key c:/users/dell/appdata/local/programs/python/python37/lib/site-packages/pywin32_system32, mtime 1624273891): 4 files, no impossibilities.
+# D:\nodejs\node_global_modules (key D:/nodejs/node_global_modules, mtime 1635487260): 9 files, no impossibilities.
+# src (key e:/postgraduate/project/learn/c-lox/src, mtime 1647310093): 18 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1624871374): 6 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1647304321): 2852 files, no impossibilities.
+# C:\Users\DELL\AppData\Local\julias\julia-1.6\bin: could not be stat'd.
+# C:\Users\DELL\AppData\Roaming\npm (key C:/Users/DELL/AppData/Roaming/npm, mtime 1635405550): 2 files, no impossibilities.
+
+# 3678 files, no impossibilities in 24 directories.
+
+# Impl 
+icit Rules
+
+# No implicit rules.
+
+# Files
+
+all: output main.exe
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/10=0%
+#  recipe to execute (from 'Makefile', line 68):
+	@echo Executing 'all' complete!
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-15 10:08:13
+#  File has been updated.
+#  Successfully updated.
+
+main.exe: src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/value.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := main.exe
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/sc 
+anner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/value.o
+# automatic
+# | := 
+# automatic
+# < := src/scanner.o
+# automatic
+# ^ := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/value.o
+# automatic
+# ? := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/value.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
+#  recipe to execute (from 'Makefile', line 74):
+	$(CC) $(CFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-10 08:52:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/memory.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-10 11:22:13
+#  File has been updated.
+#  Successfully u 
+pdated.
+
+# Not a target:
+src/vm.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-15 10:08:13
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/debug.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-15 10:08:13
+#  File has been updated.
+#  Successfully updated.
+
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	$(CC) $(CFLAGS) $(INCLUDES) -c $<  -o $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/value.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-10 11:41:04
+#  File has been updated.
+#  Successfully updated.
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	./$(OUTPUTMAIN)
+	@echo Executing 'run: all' complete!
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 85):
+	$(RM) $(OUTPUTMAIN)
+	$(RM) $(call FIXPATH,$(OBJECTS))
+	@echo Cleanup complete!
+
+# Not a target:
+src/compiler.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-15 10:08:13
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/scanner.o:
+#  Implicit rule search ha 
+s been done.
+#  Last modified 2022-03-15 10:08:13
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/chunk.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-10 11:41:04
+#  File has been updated.
+#  Successfully updated.
+
+output:
+#  Implicit rule search has not been done.
+#  Last modified 2022-03-15 10:08:14
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 71):
+	$(MD) $(OUTPUT)
+
+# files hash-table stats:
+# Load=18/1024=2%, Rehash=0, Collisions=0/45=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (5) / strings = 3648 / storage = 56812 B / avg = 15 B
+# current buf: size = 8174 B / used = 7837 B / count = 424 / avg = 18 B
+# other used: total = 48638 B / count = 3224 / avg = 15 B
+# other free: total = 69 B / max = 16 B / min = 6 B / avg = 11 B
+
+# strcache performance: lookups = 3734 / hit rate = 2%
+# hash-table stats:
+# Load=3648/8192=45%, Rehash=0, Collisions 
+=1304/3734=35%
+# Finished Make data base on Tue Mar 15 11:54:26 2022
+
+ 
