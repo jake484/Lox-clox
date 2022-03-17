@@ -37,6 +37,7 @@ void writeChunk(Chunk *chunk, uint8_t byte, int line)
 }
 int addConstant(Chunk *chunk, Value value)
 {
+    // printf("\n valeu is %.2f \n\n",value.as.number);
     writeValueArray(&chunk->constants, value);
     return chunk->constants.count - 1;
 }

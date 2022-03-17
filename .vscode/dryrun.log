@@ -1,13 +1,23 @@
-make.exe --dry-run --keep-going --print-directory
+make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'e:/postgraduate/project/learn/clox'
+mkdir output
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/scanner.c  -o src/scanner.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/vm.c  -o src/vm.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/debug.c  -o src/debug.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/main.c  -o src/main.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/memory.c  -o src/memory.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/chunk.c  -o src/chunk.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/compiler.c  -o src/compiler.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/value.c  -o src/value.o
+ 
 gcc -Wall -Wextra -g -Iinclude -o output\main.exe src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/value.o  -Llib
 echo Executing 'all' complete!
 make.exe: Leaving directory 'e:/postgraduate/project/learn/clox'

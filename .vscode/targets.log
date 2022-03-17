@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Wed Mar 16 14:19:17 2022
+# Make data base, printed on Thu Mar 17 08:27:30 2022
 
 # Variables
 
@@ -30,8 +30,7 @@ INCLUDES := -Iinclude
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-HOMEDRIVE = 
- C:
+HOMEDRIVE = C:
 # automatic
 @F = $(notdir $@)
 # automatic
@@ -71,7 +70,7 @@ PROGRAMDATA = C:\ProgramData
 # environment
 GPROMSHOME = E:\PSE\gPROMS-core_7.0.7.55178
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-11214ea0-f90a-4656-aa5f-3498d9642f20-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-93acef18-68da-46da-aea1-3a741311042b-sock
 # environment
 VSCODE_CWD = C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -84,8 +83,7 @@ ZES_ENABLE_SYSMAN = 1
 MD := mkdir
 # environment
 PROCESSOR_ARCHITECTURE = x86
-# envi 
-ronment
+# environment
 USERPROFILE = C:\Users\DELL
 # environment
 ALLUSERSPROFILE = C:\ProgramData
@@ -106,7 +104,7 @@ OPENMODELICAHOME = D:\software\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14304_DVLCEWRDCLZLIWOC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12568_OWEFWZWSNHMCALNJ
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -139,8 +137,7 @@ INCLUDEDIRS := include
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = DESKTOP-G35MT3G
-# environme 
-nt
+# environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
@@ -186,8 +183,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\94d617bfb1ac0c411605adcb3cbd2f14-1.65.2 
--main-sock
+VSCODE_IPC_HOOK = \\.\pipe\94d617bfb1ac0c411605adcb3cbd2f14-1.65.2-main-sock
 # environment
 HOMEPATH = \Users\DELL
 # environment
@@ -235,8 +231,7 @@ PROCESSOR_REVISION = a505
 # default
 .RECIPEPREFIX := 
 # makefile (from 'Makefile', line 57)
-OBJECTS := src/scanner.o s 
-rc/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/value.o
+OBJECTS := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/value.o
 # environment
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # environment
@@ -246,7 +241,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 14304
+VSCODE_PID = 12568
 # environment
 JULIA_NUM_THREADS = 16
 # environment
@@ -267,8 +262,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-G35MT3G
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1618634246): 31 files, no impossibilities.
 # . (key e:/postgraduate/project/learn/clox, mtime 1647326323): 13 files, no impossibilities.
 # D:\nodejs\node_global_modules" (key D:/nodejs/node_global_modules", mtime 1635487260): could not be opened.
-# D:\software_inst 
-all\apache-maven-3.8.4\bin (key D:/software_install/apache-maven-3.8.4/bin, mtime 1636852368): 8 files, no impossibilities.
+# D:\software_install\apache-maven-3.8.4\bin (key D:/software_install/apache-maven-3.8.4/bin, mtime 1636852368): 8 files, no impossibilities.
 # "D:\nodejs\: could not be stat'd.
 # C:\Users\DELL\AppData\Local\Programs\Python\Python37\Scripts\ (key C:/Users/DELL/AppData/Local/Programs/Python/Python37/Scripts/, mtime 1647220210): 55 files, no impossibilities.
 # D:\julia\Julia-1.6.3\bin (key D:/julia/Julia-1.6.3/bin, mtime 1636363137): 55 files, no impossibilities.
@@ -277,11 +271,10 @@ all\apache-maven-3.8.4\bin (key D:/software_install/apache-maven-3.8.4/bin, mtim
 # E:\PSE\gPROMS-core_7.0.7.55178\bin (key E:/PSE/gPROMS-core_7.0.7.55178/bin, mtime 1630567450): 240 files, no impossibilities.
 # C:\Windows (key C:/Windows, mtime 1646899118): 115 files, no impossibilities.
 # C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1647050326): 4 files, no impossibilities.
-# C:\Windows\System32\Wbem (key C:/Windows/Sy 
-stem32/Wbem, mtime 1646899119): 155 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1646899119): 155 files, no impossibilities.
 # c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\pywin32_system32 (key c:/users/dell/appdata/local/programs/python/python37/lib/site-packages/pywin32_system32, mtime 1624273891): 4 files, no impossibilities.
 # D:\nodejs\node_global_modules (key D:/nodejs/node_global_modules, mtime 1635487260): 9 files, no impossibilities.
-# src (key e:/postgraduate/project/learn/clox/src, mtime 1647326323): 18 files, no impossibilities.
+# src (key e:/postgraduate/project/learn/clox/src, mtime 1647415517): 18 files, no impossibilities.
 # C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1624871374): 6 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1647409186): 2852 files, no impossibilities.
 # C:\Users\DELL\AppData\Local\julias\julia-1.6\bin: could not be stat'd.
@@ -311,11 +304,10 @@ all: output main.exe
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a t 
-arget:
+# Not a target:
 src/main.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-15 10:08:13
+#  Last modified 2022-03-16 15:12:35
 #  File has been updated.
 #  Successfully updated.
 
@@ -344,8 +336,7 @@ main.exe: src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=2/18=11%
 #  recipe to execute (from 'Makefile', line 74):
-	$( 
-CC) $(CFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+	$(CC) $(CFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
 
 # Not a target:
 .SUFFIXES:
@@ -363,21 +354,21 @@ Makefile:
 # Not a target:
 src/memory.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-10 11:22:13
+#  Last modified 2022-03-16 15:12:35
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 src/vm.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-15 10:08:13
+#  Last modified 2022-03-16 15:12:34
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 src/debug.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-15 10:08:13
+#  Last modified 2022-03-16 15:12:34
 #  File has been updated.
 #  Successfully updated.
 
@@ -386,8 +377,7 @@ src/debug.o:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 81):
-	$(CC) $(CFLAGS) $(INCLUDES 
-) -c $<  -o $@
+	$(CC) $(CFLAGS) $(INCLUDES) -c $<  -o $@
 
 # Not a target:
 .DEFAULT:
@@ -398,7 +388,7 @@ src/debug.o:
 # Not a target:
 src/value.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-10 11:41:04
+#  Last modified 2022-03-16 15:18:50
 #  File has been updated.
 #  Successfully updated.
 
@@ -423,28 +413,27 @@ clean:
 # Not a target:
 src/compiler.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-15 10:08:13
+#  Last modified 2022-03-16 15:25:17
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 src/scanner.o:
-#  Implicit rule search h 
-as been done.
-#  Last modified 2022-03-15 10:08:13
+#  Implicit rule search has been done.
+#  Last modified 2022-03-16 15:11:45
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 src/chunk.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-10 11:41:04
+#  Last modified 2022-03-16 15:12:35
 #  File has been updated.
 #  Successfully updated.
 
 output:
 #  Implicit rule search has not been done.
-#  Last modified 2022-03-15 14:36:46
+#  Last modified 2022-03-16 15:25:17
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 71):
@@ -465,8 +454,7 @@ output:
 
 # strcache performance: lookups = 3734 / hit rate = 2%
 # hash-table stats:
-# Load=3648/8192=45%, Rehash=0, Collision 
-s=1304/3734=35%
-# Finished Make data base on Wed Mar 16 14:19:17 2022
+# Load=3648/8192=45%, Rehash=0, Collisions=1304/3734=35%
+# Finished Make data base on Thu Mar 17 08:27:30 2022
 
  
