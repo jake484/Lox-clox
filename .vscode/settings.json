@@ -4,6 +4,8 @@
         "cmath": "c",
         "type_traits": "c",
         "typeinfo": "c",
-        "common.h": "c"
+        "common.h": "c",
+        "table.h": "c",
+        "string.h": "c"
     }
 }
