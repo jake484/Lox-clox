@@ -12,4 +12,8 @@ static void emitReturn();
 static void endCompiler();
 static void advance();
 static void expression();
+static void statement();
+static void declaration();
+static bool match(TokenType type);
+static bool check(TokenType type);
 #endif

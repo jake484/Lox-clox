@@ -12,6 +12,8 @@ gcc -Wall -Wextra -g -Iinclude -c src/main.c  -o src/main.o
  
 gcc -Wall -Wextra -g -Iinclude -c src/memory.c  -o src/memory.o
  
+gcc -Wall -Wextra -g -Iinclude -c src/table.c  -o src/table.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/chunk.c  -o src/chunk.o
  
 gcc -Wall -Wextra -g -Iinclude -c src/compiler.c  -o src/compiler.o
@@ -20,7 +22,7 @@ gcc -Wall -Wextra -g -Iinclude -c src/object.c  -o src/object.o
  
 gcc -Wall -Wextra -g -Iinclude -c src/value.c  -o src/value.o
  
-gcc -Wall -Wextra -g -Iinclude -o output\main.exe src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/object.o src/value.o  -Llib
+gcc -Wall -Wextra -g -Iinclude -o output\main.exe src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/table.o src/chunk.o src/compiler.o src/object.o src/value.o  -Llib
 echo Executing 'all' complete!
 make.exe: Leaving directory 'e:/postgraduate/project/learn/clox'
  

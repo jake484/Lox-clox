@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Mon Mar 21 09:12:43 2022
+# Make data base, printed on Tue Mar 22 08:36:22 2022
 
 # Variables
 
@@ -30,8 +30,7 @@ INCLUDES := -Iinclude
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-HOMEDRIVE = 
- C:
+HOMEDRIVE = C:
 # automatic
 @F = $(notdir $@)
 # automatic
@@ -61,7 +60,7 @@ FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 TMP = C:\Users\DELL\AppData\Local\Temp
 # makefile (from 'Makefile', line 54)
-SOURCES := src/scanner.c src/vm.c src/debug.c src/main.c src/memory.c src/chunk.c src/compiler.c src/object.c src/value.c
+SOURCES := src/scanner.c src/vm.c src/debug.c src/main.c src/memory.c src/table.c src/chunk.c src/compiler.c src/object.c src/value.c
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
@@ -71,7 +70,7 @@ PROGRAMDATA = C:\ProgramData
 # environment
 GPROMSHOME = E:\PSE\gPROMS-core_7.0.7.55178
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-908235b4-89ff-404d-a0df-f8ebb798565b-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-05acc59a-6bd6-4066-be10-40f7b5da129f-sock
 # environment
 VSCODE_CWD = C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -105,7 +104,7 @@ OPENMODELICAHOME = D:\software\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6168_QGYKHTLDKWGBEMKA
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19668_RCNLUUWKGVBKRRGN
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -121,8 +120,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 USERNAME = DELL
 # environment
-PUBLIC = C: 
-\Users\Public
+PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -185,8 +183,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_H 
-OOK = \\.\pipe\94d617bfb1ac0c411605adcb3cbd2f14-1.65.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\94d617bfb1ac0c411605adcb3cbd2f14-1.65.2-main-sock
 # environment
 HOMEPATH = \Users\DELL
 # environment
@@ -233,9 +230,8 @@ SESSIONNAME = Console
 PROCESSOR_REVISION = a505
 # default
 .RECIPEPREFIX := 
-# makefile 
- (from 'Makefile', line 57)
-OBJECTS := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/object.o src/value.o
+# makefile (from 'Makefile', line 57)
+OBJECTS := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/table.o src/chunk.o src/compiler.o src/object.o src/value.o
 # environment
 PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # environment
@@ -245,7 +241,7 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 6168
+VSCODE_PID = 19668
 # environment
 JULIA_NUM_THREADS = 16
 # environment
@@ -261,8 +257,7 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-G35MT3G
 
 # D:\software_install\node\ (key D:/software_install/node/, mtime 1635405552): 13 files, no impossibilities.
 # C:\Users\DELL\AppData\Local\Programs\Python\Python37\ (key C:/Users/DELL/AppData/Local/Programs/Python/Python37/, mtime 1628218753): 20 files, no impossibilities.
-# D:\software_install\bin (key D:/software_install/ 
-bin, mtime 1628739931): 57 files, no impossibilities.
+# D:\software_install\bin (key D:/software_install/bin, mtime 1628739931): 57 files, no impossibilities.
 # C:\Users\DELL\AppData\Local\Microsoft\WindowsApps (key C:/Users/DELL/AppData/Local/Microsoft/WindowsApps, mtime 1646706587): 13 files, no impossibilities.
 # C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1618634246): 31 files, no impossibilities.
 # . (key e:/postgraduate/project/learn/clox, mtime 1647326323): 13 files, no impossibilities.
@@ -276,19 +271,17 @@ bin, mtime 1628739931): 57 files, no impossibilities.
 # C:\Users\DELL\AppData\Local\gitkraken\bin (key C:/Users/DELL/AppData/Local/gitkraken/bin, mtime 1647497250): 3 files, no impossibilities.
 # E:\PSE\gPROMS-core_7.0.7.55178\bin (key E:/PSE/gPROMS-core_7.0.7.55178/bin, mtime 1630567450): 240 files, no impossibilities.
 # C:\Windows (key C:/Windows, mtime 1646899118): 115 files, no impossibilities.
-# C:\Users\DE 
-LL\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1647050326): 4 files, no impossibilities.
+# C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1647050326): 4 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1646899119): 155 files, no impossibilities.
 # c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\pywin32_system32 (key c:/users/dell/appdata/local/programs/python/python37/lib/site-packages/pywin32_system32, mtime 1624273891): 4 files, no impossibilities.
 # D:\nodejs\node_global_modules (key D:/nodejs/node_global_modules, mtime 1635487260): 9 files, no impossibilities.
-# src (key e:/postgraduate/project/learn/clox/src, mtime 1647568554): 20 files, no impossibilities.
+# src (key e:/postgraduate/project/learn/clox/src, mtime 1647831786): 22 files, no impossibilities.
 # C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1624871374): 6 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1647658057): 2852 files, no impossibilities.
-# C:\Users\DELL\AppData\Local\julias\julia-1.6\bin 
-: could not be stat'd.
+# C:\Users\DELL\AppData\Local\julias\julia-1.6\bin: could not be stat'd.
 # C:\Users\DELL\AppData\Roaming\npm (key C:/Users/DELL/AppData/Roaming/npm, mtime 1635405550): 2 files, no impossibilities.
 
-# 3683 files, no impossibilities in 25 directories.
+# 3685 files, no impossibilities in 25 directories.
 
 # Implicit Rules
 
@@ -319,9 +312,15 @@ src/main.o:
 #  File has been updated.
 #  Successfully updated.
 
-main.exe: src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/object.o src/value.o
-#  Implicit rule search has not been d 
-one.
+# Not a target:
+src/table.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-21 11:03:06
+#  File has been updated.
+#  Successfully updated.
+
+main.exe: src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/table.o src/chunk.o src/compiler.o src/object.o src/value.o
+#  Implicit rule search has not been done.
 #  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
@@ -333,15 +332,15 @@ one.
 # automatic
 # * := 
 # automatic
-# + := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/object.o src/value.o
+# + := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/table.o src/chunk.o src/compiler.o src/object.o src/value.o
 # automatic
 # | := 
 # automatic
 # < := src/scanner.o
 # automatic
-# ^ := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/object.o src/value.o
+# ^ := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/table.o src/chunk.o src/compiler.o src/object.o src/value.o
 # automatic
-# ? := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/chunk.o src/compiler.o src/object.o src/value.o
+# ? := src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/table.o src/chunk.o src/compiler.o src/object.o src/value.o
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=2/18=11%
 #  recipe to execute (from 'Makefile', line 74):
@@ -355,8 +354,7 @@ one.
 
 # Not a target:
 Makefile:
-#  Implicit rule s 
-earch has been done.
+#  Implicit rule search has been done.
 #  Last modified 2022-03-15 14:38:43
 #  File has been updated.
 #  Successfully updated.
@@ -371,7 +369,7 @@ src/memory.o:
 # Not a target:
 src/vm.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-18 09:55:54
+#  Last modified 2022-03-21 11:03:06
 #  File has been updated.
 #  Successfully updated.
 
@@ -392,7 +390,7 @@ src/debug.o:
 # Not a target:
 src/object.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-18 09:55:54
+#  Last modified 2022-03-21 11:03:06
 #  File has been updated.
 #  Successfully updated.
 
@@ -405,7 +403,7 @@ src/object.o:
 # Not a target:
 src/value.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-18 09:44:57
+#  Last modified 2022-03-21 11:03:06
 #  File has been updated.
 #  Successfully updated.
 
@@ -419,8 +417,7 @@ run: all
 
 clean:
 #  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has 
- not been done.
+#  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 85):
@@ -431,7 +428,8 @@ clean:
 # Not a target:
 src/compiler.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-18 09:32:32
+#  Last mo 
+dified 2022-03-18 09:32:32
 #  File has been updated.
 #  Successfully updated.
 
@@ -440,8 +438,7 @@ src/scanner.o:
 #  Implicit rule search has been done.
 #  Last modified 2022-03-16 15:11:45
 #  File has been updated.
-#  Successfully upd 
-ated.
+#  Successfully updated.
 
 # Not a target:
 src/chunk.o:
@@ -452,28 +449,28 @@ src/chunk.o:
 
 output:
 #  Implicit rule search has not been done.
-#  Last modified 2022-03-18 09:55:54
+#  Last modified 2022-03-21 11:03:07
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 71):
 	$(MD) $(OUTPUT)
 
 # files hash-table stats:
-# Load=19/1024=2%, Rehash=0, Collisions=0/47=0%
+# Load=20/1024=2%, Rehash=0, Collisions=0/49=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 7 (5) / strings = 3653 / storage = 56899 B / avg = 15 B
-# current buf: size = 8174 B / used = 7924 B / count = 429 / avg = 18 B
-# other used: total = 48725 B / count = 3224 / avg = 15 B
+# strcache buffers: 7 (5) / strings = 3656 / storage = 56927 B / avg = 15 B
+# current buf: size = 8174 B / used = 7952 B / count = 432 / avg = 18 B
+# other used: total = 48753 B / count = 3224 / avg = 15 B
 # other free: total = 69 B / max = 16 B / min = 6 B / avg = 11 B
 
-# strcache performance: lookups = 3741 / hit rate = 2%
+# strcache performance: lookups = 3744 / hit rate = 2%
 # hash-table stats:
-# Load=3653/8192=45%, Rehash=0, Collisions=1310/3741=35%
-# Finished Make data base on Mon Mar 21 09:12:43 2022
+# Load=3656/8192=45%, Rehash=0, Collisions=1311/3744=35%
+# Finished Make data base on Tue Mar 22 08:36:22 2022
 
  
