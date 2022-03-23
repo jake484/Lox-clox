@@ -1,1 +1,6 @@
-print "st" + "ri" + "ng"
+{
+  var a = "outer";
+  {
+    var b = a;
+  }
+}
