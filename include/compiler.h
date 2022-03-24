@@ -17,5 +17,7 @@ static void statement();
 static void declaration();
 static bool match(TokenType type);
 static bool check(TokenType type);
-
+static int emitJump(uint8_t instruction);
+static void emitLoop(int loopStart);
+static void patchJump(int offset);
 #endif
