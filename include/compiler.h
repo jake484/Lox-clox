@@ -4,12 +4,12 @@
 #include "vm.h"
 #include "chunk.h"
 #include "scanner.h"
-bool compile(const char* source, Chunk* chunk);
+ObjFunction *compile(const char *source);
 static void consume(TokenType type, const char *message);
 static void emitBytes(uint8_t byte1, uint8_t byte2);
 static void emitConstant(Value value);
 static void emitReturn();
-static void endCompiler();
+static ObjFunction *endCompiler();
 
 static void advance();
 static void expression();
@@ -20,4 +20,5 @@ static bool check(TokenType type);
 static int emitJump(uint8_t instruction);
 static void emitLoop(int loopStart);
 static void patchJump(int offset);
+
 #endif
