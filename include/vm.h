@@ -27,10 +27,16 @@ typedef struct
     int frameCount;
     Value stack[STACK_MAX];
     Value *stackTop;
-    ObjUpvalue* openUpvalues;
+    ObjUpvalue *openUpvalues;
+
+    size_t bytesAllocated;
+    size_t nextGC;
     Obj *objects;
     Table globals;
     Table strings;
+    int grayCount;
+    int grayCapacity;
+    Obj **grayStack;
 } VM;
 
 extern VM vm;

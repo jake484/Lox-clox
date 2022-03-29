@@ -1,14 +1,4 @@
-{
-  var a = 1;
-  fun f() {
-    print a;
-  }
-  var b = 2;
-  fun g() {
-    print b;
-  }
-  var c = 3;
-  fun h() {
-    print c;
-  }
-}
+var a = "aaaaaa";
+a = "ccccccc";
+a = "bbbbbbb";
+print a;

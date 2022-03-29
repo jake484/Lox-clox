@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include "vm.h"
 #include "chunk.h"
 #include "memory.h"
 
@@ -37,7 +37,8 @@ void writeChunk(Chunk *chunk, uint8_t byte, int line)
 }
 int addConstant(Chunk *chunk, Value value)
 {
-    // printf("\n valeu is %.2f \n\n",value.as.number);
+    push(value);
     writeValueArray(&chunk->constants, value);
+    pop();
     return chunk->constants.count - 1;
 }

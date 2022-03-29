@@ -5,6 +5,7 @@
 #include "chunk.h"
 #include "scanner.h"
 ObjFunction *compile(const char *source);
+void markCompilerRoots();
 static void consume(TokenType type, const char *message);
 static void emitBytes(uint8_t byte1, uint8_t byte2);
 static void emitConstant(Value value);
