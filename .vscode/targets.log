@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue Mar 29 08:31:13 2022
+# Make data base, printed on Wed Mar 30 13:51:47 2022
 
 # Variables
 
@@ -71,7 +71,7 @@ PROGRAMDATA = C:\ProgramData
 # environment
 GPROMSHOME = E:\PSE\gPROMS-core_7.0.7.55178
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8958550d-76ea-44c4-81aa-ef5ee665b13f-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c89490df-b494-48ec-a249-2454504bd249-sock
 # environment
 VSCODE_CWD = C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -80,8 +80,7 @@ PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
 ZES_ENABLE_SYSMAN = 1
-# makefile (from 'Makefile', lin 
-e 36)
+# makefile (from 'Makefile', line 36)
 MD := mkdir
 # environment
 PROCESSOR_ARCHITECTURE = x86
@@ -102,11 +101,12 @@ LIB := lib
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
 # environment
-OPENMODELICAHOME = D:\software\
+OP 
+ENMODELICAHOME = D:\software\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1840_OEXCEPLMVCYKQNRT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_840_DIYBJIUYLONKOESF
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -136,8 +136,7 @@ LOGONSERVER = \\DESKTOP-G35MT3G
 # makefile (from 'Makefile', line 32)
 INCLUDEDIRS := include
 # environment
-VSCODE_HANDLES_UNCAUGHT_ER 
-RORS = true
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 USERDOMAIN = DESKTOP-G35MT3G
 # environment
@@ -206,8 +205,7 @@ SYSTEMROOT = C:\Windows
 # automatic
 +F = $(notdir $+)
 # environment
-APPDAT 
-A = C:\Users\DELL\AppData\Roaming
+APPDATA = C:\Users\DELL\AppData\Roaming
 # environment
 TEMP = C:\Users\DELL\AppData\Local\Temp
 # environment
@@ -245,12 +243,11 @@ PROCESSOR_LEVEL = 6
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 1840
+VSCODE_PID = 840
 # environment
 JULIA_NUM_THREADS = 16
 # environment
-USERDOMAIN 
-_ROAMINGPROFILE = DESKTOP-G35MT3G
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-G35MT3G
 # variable set hash-table stats:
 # Load=116/1024=11%, Rehash=0, Collisions=14/161=9%
 
@@ -270,8 +267,7 @@ _ROAMINGPROFILE = DESKTOP-G35MT3G
 # D:\software_install\apache-maven-3.8.4\bin (key D:/software_install/apache-maven-3.8.4/bin, mtime 1636852368): 8 files, no impossibilities.
 # "D:\nodejs\: could not be stat'd.
 # C:\Users\DELL\AppData\Local\Programs\Python\Python37\Scripts\ (key C:/Users/DELL/AppData/Local/Programs/Python/Python37/Scripts/, mtime 1647660880): 55 files, no impossibilities.
-# D:\julia\Julia-1.6.3\bin (key D:/julia/Julia-1.6.3/bin, mtime 1636363137): 55 f 
-iles, no impossibilities.
+# D:\julia\Julia-1.6.3\bin (key D:/julia/Julia-1.6.3/bin, mtime 1636363137): 55 files, no impossibilities.
 # D:\software\Git\cmd (key D:/software/Git/cmd, mtime 1630910587): 8 files, no impossibilities.
 # C:\Windows\System32\OpenSSH\: could not be stat'd.
 # C:\Users\DELL\AppData\Local\gitkraken\bin (key C:/Users/DELL/AppData/Local/gitkraken/bin, mtime 1647497250): 3 files, no impossibilities.
@@ -279,14 +275,12 @@ iles, no impossibilities.
 # C:\Windows (key C:/Windows, mtime 1648353680): 114 files, no impossibilities.
 # C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/DELL/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1647050326): 4 files, no impossibilities.
 # C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1646899119): 155 files, no impossibilities.
-# c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\pywin32_system32 (key c:/users/dell/appdata/local/programs/python/python37/lib/site-packages/pywin32_system32, mtime 1624273891): 4 files, no impo 
-ssibilities.
+# c:\users\dell\appdata\local\programs\python\python37\lib\site-packages\pywin32_system32 (key c:/users/dell/appdata/local/programs/python/python37/lib/site-packages/pywin32_system32, mtime 1624273891): 4 files, no impossibilities.
 # D:\nodejs\node_global_modules (key D:/nodejs/node_global_modules, mtime 1635487260): 9 files, no impossibilities.
-# src (key e:/postgraduate/project/learn/clox/src, mtime 1648431793): 22 files, no impossibilities.
+# src (key e:/postgraduate/project/learn/clox/src, mtime 1648518353): 22 files, no impossibilities.
 # C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1624871374): 6 files, no impossibilities.
 # C:\Windows\system32 (key C:/Windows/system32, mtime 1648513485): 2852 files, no impossibilities.
-# C:\Users\DELL\AppData\Lo 
-cal\julias\julia-1.6\bin: could not be stat'd.
+# C:\Users\DELL\AppData\Local\julias\julia-1.6\bin: could not be stat'd.
 # C:\Users\DELL\AppData\Roaming\npm (key C:/Users/DELL/AppData/Roaming/npm, mtime 1635405550): 2 files, no impossibilities.
 
 # 3684 files, no impossibilities in 25 directories.
@@ -323,10 +317,9 @@ src/main.o:
 # Not a target:
 src/table.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-21 11:03:06
+#  Last modified 2022-03-29 09:45:53
 #  File has been updated.
-#  S 
-uccessfully updated.
+#  Successfully updated.
 
 main.exe: src/scanner.o src/vm.o src/debug.o src/main.o src/memory.o src/table.o src/chunk.o src/compiler.o src/object.o src/value.o
 #  Implicit rule search has not been done.
@@ -371,14 +364,14 @@ Makefile:
 # Not a target:
 src/memory.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-28 09:43:13
+#  Last modified 2022-03-29 09:45:53
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 src/vm.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-28 09:43:12
+#  Last modified 2022-03-29 09:45:53
 #  File has been updated.
 #  Successfully updated.
 
@@ -396,11 +389,10 @@ src/debug.o:
 #  recipe to execute (from 'Makefile', line 81):
 	$(CC) $(CFLAGS) $(INCLUDES) -c $<  -o $@
 
-# Not a t 
-arget:
+# Not a target:
 src/object.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-28 09:43:13
+#  Last modified 2022-03-29 09:45:53
 #  File has been updated.
 #  Successfully updated.
 
@@ -438,8 +430,7 @@ clean:
 # Not a target:
 src/compiler.o:
 #  Implicit rule search has been done.
-#  Last modi 
-fied 2022-03-28 09:43:13
+#  Last modified 2022-03-29 09:45:53
 #  File has been updated.
 #  Successfully updated.
 
@@ -453,13 +444,13 @@ src/scanner.o:
 # Not a target:
 src/chunk.o:
 #  Implicit rule search has been done.
-#  Last modified 2022-03-17 10:43:31
+#  Last modified 2022-03-29 09:45:53
 #  File has been updated.
 #  Successfully updated.
 
 output:
 #  Implicit rule search has not been done.
-#  Last modified 2022-03-28 09:43:13
+#  Last modified 2022-03-29 09:45:54
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 71):
@@ -476,12 +467,11 @@ output:
 # strcache buffers: 7 (6) / strings = 3655 / storage = 56914 B / avg = 15 B
 # current buf: size = 8174 B / used = 7932 B / count = 431 / avg = 18 B
 # other used: total = 48740 B / count = 3224 / avg = 15 B
-# other free: total = 62 B / max = 14 B / min = 6 
- B / avg = 10 B
+# other free: total = 62 B / max = 14 B / min = 6 B / avg = 10 B
 
 # strcache performance: lookups = 3743 / hit rate = 2%
 # hash-table stats:
 # Load=3655/8192=45%, Rehash=0, Collisions=1311/3743=35%
-# Finished Make data base on Tue Mar 29 08:31:13 2022
+# Finished Make data base on Wed Mar 30 13:51:47 2022
 
  
