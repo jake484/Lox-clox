@@ -34,6 +34,7 @@ typedef struct
     Obj *objects;
     Table globals;
     Table strings;
+    ObjString *initString;
     int grayCount;
     int grayCapacity;
     Obj **grayStack;

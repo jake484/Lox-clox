@@ -1,6 +1,6 @@
-class Pair {}
+class Brunch {
+  eggs() {}
+}
 
-var pair = Pair();
-pair.first = 1;
-pair.second = 2;
-print pair.first + pair.second;
+var brunch = Brunch();
+var eggs = brunch.eggs;
