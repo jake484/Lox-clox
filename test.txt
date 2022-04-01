@@ -1,6 +1,17 @@
-class Brunch {
-  eggs() {}
+class Doughnut {
+  cook() {
+    print "Dunk in the fryer.";
+    this.finish("sprinkles");
+  }
+
+  finish(ingredient) {
+    print "Finish with " + ingredient;
+  }
 }
 
-var brunch = Brunch();
-var eggs = brunch.eggs;
+class Cruller < Doughnut {
+  finish(ingredient) {
+    // No sprinkles, always icing.
+    super.finish("icing");
+  }
+}

@@ -1,8 +1,11 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'e:/postgraduate/project/learn/clox'
 mkdir output
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/scanner.c  -o src/scanner.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/vm.c  -o src/vm.o
+ 
 gcc -Wall -Wextra -g -Iinclude -c src/debug.c  -o src/debug.o
  
 gcc -Wall -Wextra -g -Iinclude -c src/main.c  -o src/main.o
